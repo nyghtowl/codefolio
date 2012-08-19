@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title></title>
+	<title>Online Developer Portfolios | Codefolio</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 
@@ -34,7 +34,7 @@
         <div class="row">
             <div class="span12"></div>
                 <div class="hero-unit">
-                    <h1>Make your code <i>in</i>credible</h1>
+                    <h1>Make your code in<i>credible</i></h1>
                     <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
                     <p><a class="btn btn-primary btn-large" href="dashboard.php">Connect Github Account &raquo;</a></p>
                 </div>
