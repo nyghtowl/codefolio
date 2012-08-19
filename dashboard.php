@@ -1,12 +1,3 @@
-<?php
-/*include('vendor/httpful.phar');
-
-extract($_GET);
-
-$url = 'http://www.ohloh.net/accounts/'.$account_id.'.xml?api_key=xbtJiPKjbBMgpz79ftYIcA';
-
-$response = \Httpful\Request::get($url)->send();*/
-?>
 <!doctype html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
@@ -17,22 +8,9 @@ $response = \Httpful\Request::get($url)->send();*/
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
 	<title>Member Dashboard | Codefolio</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
 
-	<meta name="viewport" content="width=device-width">
+    <?php include "header.php" ?>
 
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<style>
-	body {
-	  padding-top: 60px;
-	  padding-bottom: 40px;
-	}
-	</style>
-	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
-	<link rel="stylesheet" href="css/style.css">
-
-	<script src="js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
 </head>
 <body>
 <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
