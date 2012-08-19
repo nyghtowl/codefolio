@@ -56,6 +56,7 @@ $response = \Httpful\Request::get($url)->send();*/
                 <div class="well">
                     <h3>Badges</h3>
                 </div>
+                <img style="width:60%" src="img/friends.png" />
             </div>
         </div>
         <div class="row-fluid">
@@ -69,10 +70,12 @@ $response = \Httpful\Request::get($url)->send();*/
         <div class="row-fluid">
             <div class="span6">
                 <div class="well">
+                    <img style="width:60%" src="img/PersonPie.png" />
                 </div>
             </div>
             <div class="span6">
                 <div class="well">
+                    <img src="img/committhing.png" />
                 </div>
             </div>
         </div>

@@ -11,10 +11,13 @@ if ($_SERVER['PHP_SELF'] == '/dashboard.php') {
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </a>
-            <a class="brand" href="/">Codefolio</a>
+            <a class="brand" href="/">
+                <img style="height:30px" src="img/codefolio_logo.png" />
+            </a>
+
             <div class="nav-collapse">
                 <ul class="nav">
-                    <li <?php if ($home) : ?>class="active"<?php endif ?>><a href="dashboard.php">Home</a></li>
+                    <li <?php if ($home) : ?>class="active"<?php endif ?>><a href="dashboard.php">Dashboard</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
